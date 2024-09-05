@@ -136,3 +136,27 @@ li::marker {
 .content-4 th,tr:nth-child(4){
     border-bottom: none;
 }
+
+@media (max-width : 700px) { 
+    .target{
+        width: 300px;
+        border-radius: 0;
+    }
+    .tarjet-secundary{
+        width: 280px;
+    }
+    .img-target{
+        width: 300px;
+        position: relative;
+        top: -30px;
+        left: -30px;
+        padding-bottom: 0px;
+    }
+    .img-target img {
+        width: 360px;
+        border-radius: 0;
+    }
+    h1 {
+        margin-top: 0;
+    }
+}
